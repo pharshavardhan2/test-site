@@ -2,13 +2,22 @@ html {
     font-size: 10px;
     font-family: 'Josefin Sans', sans-serif;
 }
-
+/* Colors for firefox developer theme */
 .dev-html {
     background-color: #0f2f82;
 }
 
+.dev-body {
+    background-color: #0896ff;
+    color: whitesmoke;
+}
+/* Colors for general theme */
 .norm-html {
     background-color: #0065eb;
+}
+
+.norm-body {
+    background-color: #ff8d00;
 }
 
 body {
@@ -17,15 +26,6 @@ body {
     padding: 0 20px 20px 20px;
     border: 2px solid black;
     border-radius: 5px;
-}
-
-.dev-body {
-    background-color: #0896ff;
-    color: whitesmoke;
-}
-
-.norm-body {
-    background-color: #ff8d00;
 }
 
 h1 {
@@ -47,4 +47,12 @@ img {
     width: auto;
     display: block;
     margin: 0 auto;
+}
+
+button {
+    font-size: 18px;
+    background-color: #0896ff;
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 5px;
 }
